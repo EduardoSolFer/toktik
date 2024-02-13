@@ -54,11 +54,11 @@ class _CustomIconButton extends StatelessWidget {
             icon: Icon(
               iconData,
               color: color,
-              size: 50,
+              size: 35,
             )),
         if( value > 0)
         Text(HumanFormats.humanReadbleNumber(value.toDouble()),
-            style: const TextStyle(fontSize: 25)
+            style: const TextStyle(fontSize: 18)
         )
         // Text('$value' + '00 M', style: const TextStyle(fontSize: 25) ),
       ],
